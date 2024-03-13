@@ -57,6 +57,7 @@
     "egg-ts-helper": "^1.25.7",
     "egg-validate": "^2.0.2",
     "egg-view-ejs": "^2.0.1",
+    "egg-view-nunjucks": "^2.3.0",
     "esdk-obs-nodejs": "^3.21.6",
     "fs-extra": "^10.1.0",
     "glob": "^10.3.10",

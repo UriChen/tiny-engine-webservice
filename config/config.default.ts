@@ -291,5 +291,13 @@ export default (appInfo) => {
   config.userToken = process.env.GIT_USER_TOKEN;
   config.email = process.env.GIT_EMAIL;
 
+  config.static = {
+    prefix: ''
+  };
+  config.view = {
+    root: path.join(appInfo.baseDir, 'app/view'),
+    defaultViewEngine: 'nunjucks'
+  }
+
   return config;
 };
