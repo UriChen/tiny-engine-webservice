@@ -33,4 +33,8 @@ export default class HomeController extends Controller {
   public async previewApp() {
     await this.ctx.render('previewApp')
   }
+
+  public async artify() {
+    await this.ctx.render('artify')
+  }
 }

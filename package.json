@@ -51,6 +51,7 @@
     "egg": "^3.17.5",
     "egg-amqplib": "^2.0.5",
     "egg-cors": "^2.2.3",
+    "egg-http-proxy-middleware": "^1.0.3",
     "egg-redis": "^2.5.0",
     "egg-router-plus": "^2.0.0",
     "egg-scripts": "^2.6.0",
